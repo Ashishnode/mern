@@ -6,7 +6,7 @@ import {CgGoogle,CgYoutube,CgAppleWatch,CgChanel} from 'react-icons/cg'
 import { FaGooglePay } from "react-icons/fa";
 import { FaSquareFacebook } from "react-icons/fa6";
 import SamVid from './../assets/videos/samVid.mp4'
-import Header from './Header.jsx'
+import Header from '../components/Header.jsx'
 
 
 function Home() {
@@ -37,12 +37,12 @@ function Home() {
                 </Box>
 
                 
-                <HStack gap={'2rem'}>
-                    <CgGoogle size={'10rem'} />
-                    <CgYoutube size={'10rem'}/>
-                    <FaSquareFacebook size={'10rem'}/> <CgAppleWatch size={'10rem'} />
-                    <FaGooglePay size={'10rem'}/> <CgChanel size={'10rem'} />
-                    <CgYoutube size={'10rem'}/>
+                <HStack gap={'1.5rem'} width={'full'}  justifyContent={["space-between"]}  m={8}             >
+                    <CgGoogle size={'4rem'} />
+                    <CgYoutube size={'4rem'}/>
+                    <FaSquareFacebook size={'4rem'}/> <CgAppleWatch size={'4rem'} />
+                    <FaGooglePay size={'4rem'}/> <CgChanel size={'4rem'} />
+                    <CgYoutube size={'4rem'}/>
                 </HStack>
 
         <video autoPlay={true} src={SamVid} controls controlsList='nodownload' />
