@@ -6,12 +6,14 @@ import {CgGoogle,CgYoutube,CgAppleWatch,CgChanel} from 'react-icons/cg'
 import { FaGooglePay } from "react-icons/fa";
 import { FaSquareFacebook } from "react-icons/fa6";
 import SamVid from './../assets/videos/samVid.mp4'
-
+import Header from './Header.jsx'
 
 
 function Home() {
   return (
     <section className='Home'>
+                    <Header />
+
         <div className="container">
             <Stack direction={["column","row"]} 
             height={'100%'} 
