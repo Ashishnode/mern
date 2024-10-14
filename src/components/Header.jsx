@@ -33,6 +33,7 @@
 import React from 'react';
 import { HStack, Text } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
+import ColorModeSwitcher from '../ColorModeSwitcher';
 
 function Header() {
   return (
@@ -57,6 +58,7 @@ function Header() {
           </Text>
         </Link>
       ))}
+      <ColorModeSwitcher />
     </HStack>
   );
 }
